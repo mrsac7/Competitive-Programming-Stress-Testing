@@ -28,7 +28,7 @@ void str(int l, int n) {
     {
         for(int j = 0; j < l; ++j) {
             int v = rand(1,150);
-            if(3%3==0) cout<<(char)rand('a','z');
+            if(v%3==0) cout<<(char)rand('a','z');
             else if(v%3==1) cout<<(char)rand('A','Z');
             else cout<<rand(0,9);
         }
@@ -86,5 +86,5 @@ void tree(int n) {
 }
 signed main()
 {
-    freopen("input.txt","w",stdout);
+
 }
